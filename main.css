@@ -1,0 +1,51 @@
+/* Ensure the page fills the entire viewport */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Container to hold all the elements in a vertical block-like layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Spacing between each block */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields styling */
+.input input {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 8px;
+    border: solid 1px;
+}
+
+/* Button styling */
+.again button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Message styling */
+.message h1 {
+    margin: 0;
+    color: green;
+    font-weight: normal;
+}
+
+#word {
+    letter-spacing: 20px;
+    font-size: 30px;
+}
